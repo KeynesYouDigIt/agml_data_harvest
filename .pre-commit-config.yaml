@@ -1,0 +1,14 @@
+# TODO - reinstall and use us later
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+    hooks:
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+  - repo: https://github.com/pre-commit/mypy
+    rev: v2.12.2
+    hooks:
+      - id: mypy
+        args: [--show-column-numbers]

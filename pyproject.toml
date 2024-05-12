@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "agml-data-contrib"
+version = "0.1.0"
+description = "Get Data up and down for working with AgML!"
+authors = ["KeynesYouDigit <vince.buscarello@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+agml = "^0.6.1"
+mypy = "^1.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
