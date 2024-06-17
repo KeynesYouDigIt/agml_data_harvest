@@ -1,0 +1,34 @@
+# Poetry
+.poetry/
+__pypackages__/
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+*.whl
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.pyc
+*.pyo
+*.pyd
+*.pyc.pytest_cache/
+*.pytest_cache/
+*.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

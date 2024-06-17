@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "agml-data-contrib"
+name = "agml-data-harvest"
 version = "0.1.0"
 description = "Get Data up and down for working with AgML!"
 authors = ["KeynesYouDigit <vince.buscarello@gmail.com>"]
